@@ -16,6 +16,6 @@ console.log(`null ==  undefined  -> `,e==f,`null === undefined   -> `,e===f);
 console.log(`null ==  false  -> `,e==d,`null === false   -> `,e===d);
 console.log(`NaN ==  NaN  -> `,g==g,`NaN === NaN   -> `,g===g);
 console.log(`1 ==  "1"  -> `,h==i,`1 === "1"   -> `,h===i);
-console.log(`"\t\n" ==  0  -> `,j==a,`"\t\n === 0   -> `,j===a);
+console.log(`" \\t\\n " ==  0  -> `,j==a,`" \\t\\n " === 0   -> `,j===a);
 console.log("---------------");
 console.log("8 paire(s) où == et === donnent des résultats différents")
